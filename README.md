@@ -1,0 +1,2 @@
+# xuanqi
+static resource server
