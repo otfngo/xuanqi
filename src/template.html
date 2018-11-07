@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Static resource server</title>
+  <link rel="stylesheet" href="/node_modules/xuanhuan/dist/xuanhuan.min.css">
+</head>
+<body>
+  <ul class=" display-flex flex-wrap list-style-none padding-0 margin-0 line-height-xs">
+    {{#each files}}
+    <li class=" padding-x-n padding-y-lg w-25">
+      <a href="{{../dir}}/{{this}}">{{this}}</a>
+    </li>
+    {{/each}}
+  </ul>
+</body>
+</html>

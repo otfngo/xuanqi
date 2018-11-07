@@ -1,0 +1,42 @@
+{
+  "name": "xuanqi",
+  "version": "1.0.0",
+  "description": "node static resource server",
+  "main": "src/app.js",
+  "bin": {
+    "xuanqi": "bin/xuanqi"
+  },
+  "scripts": {
+    "eslint-fix": "eslint --fix .",
+    "eslint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otfngo/xuanqi.git"
+  },
+  "keywords": [
+    "node",
+    "static",
+    "resource",
+    "server"
+  ],
+  "author": "otfngo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otfngo/xuanqi/issues"
+  },
+  "homepage": "https://github.com/otfngo/xuanqi#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "handlebars": "^4.0.12",
+    "xuanhuan": "^5.2.9"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "pre-commit": "^1.2.2",
+    "yargs": "^12.0.2"
+  },
+  "pre-commit": [
+    "eslint"
+  ]
+}
