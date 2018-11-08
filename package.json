@@ -1,6 +1,6 @@
 {
   "name": "xuanqi",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "node static resource server",
   "main": "src/app.js",
   "bin": {
